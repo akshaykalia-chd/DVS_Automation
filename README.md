@@ -9,9 +9,12 @@ You have built a new vCenter from scratch and would like to move host from an ex
 
 However, you are still left with mammoth task of adding the host to Distributed switch and Mapping the VMs to Distributed PortGroups
 
-**This script makes use of Auto assign vmnic to DVS uplink. Due to this there is no way to specify vmnic to uplink mapping. Hence, do not use in an environment where vmnic to uplink mapping is required to be a constant.**
+**DVS_OPs-V1.ps1 makes use of Auto assign vmnic to DVS uplink. Due to this there is _no way to specify vmnic to uplink mapping_. Hence, do not use in an environment where vmnic to uplink mapping is required to be a constant.**
 
-**Do not use the script without testing it in your Test/Dev environment**
+**_To specify vmnic to uplink mapping_ use DVS_OPs-V2.ps1**
+
+
+**Do not use the scripts without testing it in your Test/Dev environment**
 
 **More details at:**
 
